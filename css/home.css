@@ -1,12 +1,14 @@
 body {
   background: grey;
 }
-
+header {
+  background: black;
+}
 header h1 {
   background-image: linear-gradient(to right,#37BBED,#000000);
-  border-radius: 50px;
+  border-radius: 0px 0px 50px 50px;
   width: 100%;
-  max-width: 50%;
+  max-width: 90%;
   text-align: right;
   color: #cccccc;
   padding: 1%;
@@ -18,11 +20,11 @@ header h1 {
 
 nav {
   padding: 1%;
-  width: 33%;
+  width: 98%;
   background: radial-gradient(ellipse at top, #37BBED80, #77770050),
             radial-gradient(ellipse at right, #ffffff, #000000);
   display: flex;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 nav .nav-boton {
   text-align: center;
@@ -41,5 +43,5 @@ nav .nav-boton {
 }
 .nav-boton:hover {
   /* font-size: 45px; */
-  width: 60%;
+  width: 300%;
 }

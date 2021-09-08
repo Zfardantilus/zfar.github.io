@@ -38,10 +38,13 @@ nav .nav-boton {
   text-shadow: 0px 0px 10px white;
   font-size: 40px;
   width: inherit;
-  transition: width 500ms;
+  transition: width 500ms, background 500ms;
   box-shadow: 2px 2px 10px black;
 }
 .nav-boton:hover {
   /* font-size: 45px; */
   width: 300%;
+  color: #ffffff;
+  background: radial-gradient(ellipse at center, #ffffff00, #00000080),
+            radial-gradient(ellipse at center, #37BBED, #ffffff25);
 }

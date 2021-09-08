@@ -18,12 +18,13 @@ header h1 {
 
 nav {
   padding: 1%;
-  width: 50%;
+  width: 33%;
   background: blue;
   display: flex;
   border-radius: 50px;
 }
 nav .nav-boton {
+  text-align: center;
   border-radius: 15px;
   background: orange;
   padding: 20px;

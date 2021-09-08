@@ -1,0 +1,38 @@
+body {
+  background: grey;
+}
+
+header h1 {
+  background-image: linear-gradient(to right,#37BBED,#000000);
+  border-radius: 50px;
+  width: 100%;
+  max-width: 50%;
+  text-align: justify;
+  color: #cccccc;
+  padding: 1%;
+  text-shadow: 2px 2px 10px #ffffff80;
+  font-size: 50px;
+  box-shadow: 5px 5px 5px #00000090;
+
+}
+
+nav {
+  padding: 1%;
+  width: 50%;
+  background: blue;
+  display: flex;
+  border-radius: 50px;
+}
+nav .nav-boton {
+  border-radius: 15px;
+  background: orange;
+  padding: 20px;
+  margin: 5px;
+  font-size: 40px;
+  width: inherit;
+  transition: width 500ms;
+}
+.nav-boton:hover {
+  /* font-size: 45px; */
+  width: 60%;
+}

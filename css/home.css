@@ -5,23 +5,27 @@ header {
   background: black;
 }
 header h1 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px;
+  margin: 0px;
   background-image: linear-gradient(to right,#37BBED,#000000);
   border-radius: 0px 0px 50px 50px;
   width: 97%;
   max-width: 100%;
-  text-align: right;
+  align-items: flex-end;
   color: #cccccc;
-  padding: 1%;
+  /* padding: 1%; */
   text-shadow: 2px 2px 10px #ffffff80;
   font-size: 50px;
-  box-shadow: 5px 5px 5px #00000090;
+  box-shadow: inset 5px 5px 5px #00000090;
   animation-name: zfar-header-1;
   animation-duration: 1s;
 }
 
  @keyframes zfar-header-1 {
-  from {width: 35%;border-radius: 0%;color: black}
-  to {width: 98%;border-radius: 0px 0px 50px 50px;}
+  from {width: 35%;border-radius: 0%;color: black;font-size: 2px;}
+  to {width: 98%;border-radius: 0px 0px 50px 50px;font-size: 50px;}
 
 
 }
@@ -32,6 +36,7 @@ header h1 {
   background: radial-gradient(ellipse at top, #37BBED80, #00000050),
             radial-gradient(ellipse at right, #ffffff, #000000);
   display: flex;
+  flex-direction: column;
   border-radius: 20px;
 }
 .nav-principal .nav-boton {
@@ -44,13 +49,13 @@ header h1 {
   color: #000000;
   text-shadow: 0px 0px 10px white;
   font-size: 40px;
-  width: inherit;
+  width: 20%;
   transition: width 500ms, background 500ms;
   box-shadow: 2px 2px 10px black;
 }
-.nav-boton:hover {
+.nav-boton:active {
   /* font-size: 45px; */
-  width: 300%;
+  width: 100%;
   color: #ffffff;
   background: radial-gradient(ellipse at center, #ffffff00, #00000080),
             radial-gradient(ellipse at center, #37BBED, #ffffff25);

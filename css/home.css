@@ -19,14 +19,15 @@ header h1 {
   text-shadow: 2px 2px 10px #ffffff80;
   font-size: 60px;
   box-shadow: inset 5px 5px 5px #00000090;
+  filter: blur(1px);
   animation-name: zfar-header-1;
   animation-duration: 1s;
 }
 
 
  @keyframes zfar-header-1 {
-  from {width: 35%;border-radius: 0%;color: black;font-size: 2px;}
-  to {width: 98%;border-radius: 0px 0px 50px 50px;font-size: 50px;}
+  from {width: 35%;border-radius: 0%;color: black;font-size: 2px;filter: blur(10px);}
+  to {width: 98%;border-radius: 0px 0px 50px 50px;font-size: 50px;filter: blur(1px);}
 }
 
 .algoFlotandoEnElEncabezado {
@@ -53,8 +54,9 @@ header h1 {
 .div-nav {
   background-image: url(../img/yovector.svg);
   background-size: cover;
-  max-width: 100%;
-  opacity: 0,1;
+  /* filter: blur(10px); */
+  /* max-width: 100%; */
+  /* opacity: 0,1; */
 }
 
 .nav-principal {

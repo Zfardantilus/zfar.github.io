@@ -49,11 +49,13 @@ header h1 {
 .fondo {
   background: radial-gradient(ellipse at top, #37BBED80, #00000050),
   radial-gradient(ellipse at right, #ffffff, #000000);
-
+  /* margin: 0 auto;
+  width: 1900px; */
 }
 .div-nav {
   background-image: url(../img/yovector.svg);
-  /* background-size: cover; */
+  background-size: auto 100%;
+  background-repeat: no-repeat;
   height: 100%;
   /* filter: blur(10px); */
   /* max-width: 100%; */

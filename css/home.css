@@ -53,7 +53,8 @@ header h1 {
 }
 .div-nav {
   background-image: url(../img/yovector.svg);
-  background-size: cover;
+  /* background-size: cover; */
+  height: 100%;
   /* filter: blur(10px); */
   /* max-width: 100%; */
   /* opacity: 0,1; */
